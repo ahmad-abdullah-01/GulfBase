@@ -1,0 +1,116 @@
+# React Native
+
+# ─────────────────────────────────────────────
+# Node & JavaScript
+# ─────────────────────────────────────────────
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Metro Bundler
+.expo/
+.expo-shared/
+dist/
+tmp/
+temp/
+
+# Logs
+*.log
+logs/
+*.tmp
+*.temp
+
+# Bundler output
+*.bundle
+*.map
+
+# ─────────────────────────────────────────────
+# iOS
+# ─────────────────────────────────────────────
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/**/*.xcworkspace
+ios/**/*.xcuserdata
+ios/**/*.xcuserstate
+ios/**/*.xcuserdatad
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# iOS project user data
+project.xcworkspace/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Xcode / SwiftPM
+.swiftpm/
+.build/
+Package.resolved
+
+# CocoaPods artifacts
+Podfile.lock
+*.react_code_gen/
+
+# ─────────────────────────────────────────────
+# Android
+# ─────────────────────────────────────────────
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+
+# C++/NDK auto-generated artifacts
+android/app/.cxx/
+android/.cxx/
+
+# Gradle caches
+.gradle/
+build/
+**/build/
+**/.gradle/
+
+# Keystore files (DON’T COMMIT YOUR KEY!)
+*.keystore
+*.jks
+*.pem
+
+# Jetifier
+jetifier.txt
+
+# ─────────────────────────────────────────────
+# Watchman
+# ─────────────────────────────────────────────
+.watchman/
+
+# ─────────────────────────────────────────────
+# VSCode / Editor settings
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────
+# OSX
+# ─────────────────────────────────────────────
+.DS_Store
+*.icloud
+*.AppleDouble
+*.LSOverride
+Icon?
+._*
+
+# ─────────────────────────────────────────────
+# Misc
+# ─────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+coverage/
