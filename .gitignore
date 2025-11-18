@@ -7,8 +7,6 @@ node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
-package-lock.json
-yarn.lock
 
 # Metro Bundler
 .expo/
@@ -33,7 +31,6 @@ logs/
 ios/Pods/
 ios/build/
 ios/DerivedData/
-ios/**/*.xcworkspace
 ios/**/*.xcuserdata
 ios/**/*.xcuserstate
 ios/**/*.xcuserdatad
@@ -42,7 +39,6 @@ ios/**/*.xcuserdatad
 *.xccheckout
 
 # iOS project user data
-project.xcworkspace/
 *.moved-aside
 *.pbxuser
 *.mode1v3
@@ -55,7 +51,6 @@ project.xcworkspace/
 Package.resolved
 
 # CocoaPods artifacts
-Podfile.lock
 *.react_code_gen/
 
 # ─────────────────────────────────────────────
